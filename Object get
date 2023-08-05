@@ -1,0 +1,12 @@
+ public Object get(int index) {
+        if (index >= 0 && index < size) {
+            return array[index];
+        } else {
+            throw new IndexOutOfBoundsException();
+        }
+    }
+
+    public int size() {
+        return size;
+    }
+}
