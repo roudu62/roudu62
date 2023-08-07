@@ -1,0 +1,15 @@
+
+#include<iostream>
+using namespace std;
+#define N 20
+template<class Ta, class Tb>
+​
+int mismatch(Ta& a, Ta& b, Tb& n)
+{
+    for(int i = 0;i < n; i++)
+    {
+        if(a[i] != b[i])
+            return i;
+    }
+    return -1;
+}
