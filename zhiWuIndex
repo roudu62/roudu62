@@ -1,0 +1,10 @@
+ for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 9; j++) {
+            if (map[i][j].type > 0) {
+                int x = 260 + j * 81.6;    // (msg.x - 260) / 81.6;
+                int y = 180 + i * 103.6 + 14; // (msg.y - 210) / 103.6;
+                int zhiWuIndex = map[i][j].type;
+                int frameIndex = map[i][j].frameIndex;
+                putimagePNG(x, y, imgZhiWu[zhiWuIndex - 1][frameIndex]);
+            }
+        }
