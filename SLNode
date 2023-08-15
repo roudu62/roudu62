@@ -1,0 +1,6 @@
+typedef int Datatype;
+typedef struct SLNode
+{
+	Datatype data;
+	struct SLNode* next;
+}SLNode;
