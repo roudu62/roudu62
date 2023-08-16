@@ -1,0 +1,18 @@
+IMAGE imgTort ;  
+   loadimage(&imgTort,"res/t1.png");
+    vector<IMAGE>imgTortArray;
+    imgTortArray.push_back(imgTort);
+     
+    obstacleImgs.push_back(imgTortArray);
+    
+    
+    //lion
+    IMAGE imgLion;
+     vector<IMAGE>imgLionArry;
+    for (int i = 0 ; i < 6;i++)
+    {
+		sprintf(name,"res/p%d.png",i+1);
+        loadimage(&mgLion,name);
+        imgLionArry.push_back(imgLion);
+            
+    }
