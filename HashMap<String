@@ -1,0 +1,15 @@
+Student student=new Student();
+Map<String, Object> map3 = new HashMap<String, Object>();
+map3.put("k");
+map3.put("v", student.getCollogeName());
+resultlist.add( map3);
+
+Map<String, Object> map4 = new HashMap<String, Object>();
+map4.put();
+map4.put("v", student.getMajorName());
+resultlist.add( map4);
+
+Map<String, Object> map5 = new HashMap<String, Object>();
+map5.put();
+map5.put("v", student.getBjmc());
+resultlist.add(map5);
